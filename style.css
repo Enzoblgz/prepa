@@ -99,7 +99,7 @@ nav {
 }
 .hero-eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--amber); }
 h1.hero-name {
-  font-size: clamp(3.6rem, 11vw, 9.5rem);
+  font-size: clamp(2.9rem, 8.4vw, 7rem);
   line-height: .9; letter-spacing: -.01em; color: var(--cream); margin-bottom: 28px;
 }
 .hero-sub {
@@ -217,5 +217,5 @@ footer { width: 100%; border-top: 1px solid rgba(255,223,192,.06); }
   .nav-links { display: none; }
   .burger { display: flex; }
   .hero-stats { gap: 28px; }
-  h1.hero-name { font-size: clamp(3rem, 15vw, 5rem); }
+  h1.hero-name { font-size: clamp(2.4rem, 11vw, 4rem); }
 }
