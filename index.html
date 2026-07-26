@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prépa — Entraînement | Enzo Bellenguez</title>
+  <meta name="description" content="Les sites d'entraînement d'Enzo Bellenguez pour la PCSI : automatismes de maths et informatique (ITC).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Grille de fond (identique au site perso) -->
+<div class="hero-grid" aria-hidden="true">
+  <div class="hero-grid-base"></div>
+  <div class="hero-grid-active"></div>
+  <div class="hero-grid-glow"></div>
+</div>
+
+<nav>
+  <a class="nav-logo" href="#hero">Enzo Bellenguez</a>
+  <ul class="nav-links">
+    <li><a href="#sites">Sites</a></li>
+    <li><a href="#suite">La suite</a></li>
+    <li><a href="https://enzo.bellenguez.fr" target="_blank" rel="noopener">CV ↗</a></li>
+  </ul>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<div id="mob-menu" aria-hidden="true">
+  <a href="#sites">Sites</a>
+  <a href="#suite">La suite</a>
+  <a href="https://enzo.bellenguez.fr" target="_blank" rel="noopener">CV ↗</a>
+</div>
+
+<!-- ─── Hero ─────────────────────────────── -->
+<section id="hero">
+  <div class="hero-text">
+    <div class="hero-eyebrow">PCSI — Lycée Lakanal, Sceaux</div>
+    <h1 class="hero-name">Entraî-<br>nement.</h1>
+    <p class="hero-sub">Deux sites que j'ai construits pour arriver en prépa avec les
+      automatismes déjà installés. Pas de vidéo, pas de cours à lire passivement : on répond,
+      on se trompe, on recommence — et la machine corrige.</p>
+    <a href="#sites" class="btn-outline">
+      Voir les deux sites
+      <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 2v8M3 7l4 4 4-4"/></svg>
+    </a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><span class="n">2</span><span class="l">sites</span></div>
+    <div class="stat"><span class="n">183</span><span class="l">questions & exos</span></div>
+    <div class="stat"><span class="n">0 €</span><span class="l">et hors-ligne</span></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ─── Les deux sites ───────────────────── -->
+<section id="sites" class="pad-inline">
+  <div class="section-label">Les sites d'exos</div>
+  <h2 class="sec-title sec-title--left">Là où je travaille.</h2>
+
+  <div class="cards">
+
+    <a class="card" href="https://enzoblgz.github.io/automatismes-pcsi/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-sigil">∑</span>
+        <span class="card-tag">Maths</span>
+      </div>
+      <h3 class="card-title">Automatismes</h3>
+      <p class="card-desc">Le TD0 de révisions de Lakanal, transformé en entraînement gamifié.
+        L'énoncé s'affiche en LaTeX, je résous sur papier, je compare, je m'auto-évalue.
+        Les exos les moins maîtrisés reviennent en premier (boîtes de Leitner).</p>
+      <ul class="card-facts">
+        <li>145 questions · 7 thèmes</li>
+        <li>Dérivation, primitives, équations, trigo, complexes, géométrie</li>
+        <li>XP, niveaux, streak, badges, points faibles</li>
+      </ul>
+      <span class="card-go">Ouvrir le site
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11L11 3M5 3h6v6"/></svg>
+      </span>
+    </a>
+
+    <a class="card" href="https://enzoblgz.github.io/numerique-pcsi/" target="_blank" rel="noopener">
+      <div class="card-top">
+        <span class="card-sigil card-sigil--mono">&gt;_</span>
+        <span class="card-tag">Informatique</span>
+      </div>
+      <h3 class="card-title">Numérique</h3>
+      <p class="card-desc">Le programme d'ITC (informatique pour tous), qui est en réalité un cours
+        de maths appliquées. Du <b>vrai Python s'exécute dans le navigateur</b> : j'écris ma fonction,
+        un jeu de tests la corrige et me dit précisément ce qui cloche.</p>
+      <ul class="card-facts">
+        <li>Module 1 — Python : 7 chapitres, 38 exos corrigés</li>
+        <li>Spécifier, prouver (variant / invariant), estimer une complexité</li>
+        <li>Dichotomie, Newton, méthode d'Euler, Monte-Carlo</li>
+      </ul>
+      <span class="card-go">Ouvrir le site
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11L11 3M5 3h6v6"/></svg>
+      </span>
+    </a>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ─── La suite ─────────────────────────── -->
+<section id="suite" class="pad-inline">
+  <div class="section-label">Ce qui vient</div>
+  <h2 class="sec-title sec-title--left">La suite du chantier.</h2>
+  <div class="soon">
+    <div class="soon-item"><span class="soon-n">02</span><span class="soon-t">Algorithmique</span><span class="soon-d">Complexité, tris, diviser pour régner, gloutons, programmation dynamique</span></div>
+    <div class="soon-item"><span class="soon-n">03</span><span class="soon-t">Structures de données</span><span class="soon-d">Piles, files, listes chaînées, arbres, tables de hachage, graphes</span></div>
+    <div class="soon-item"><span class="soon-n">04</span><span class="soon-t">Méthodes numériques</span><span class="soon-d">numpy, matplotlib, systèmes linéaires, RK4</span></div>
+    <div class="soon-item"><span class="soon-n">05</span><span class="soon-t">Automatismes de physique</span><span class="soon-d">Mécanique, électricité, optique — sur le modèle du site de maths</span></div>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-inner pad-inline">
+    <span>Enzo Bellenguez — PCSI Lakanal, rentrée 2026</span>
+    <span class="foot-links">
+      <a href="https://enzo.bellenguez.fr" target="_blank" rel="noopener">Mon site</a>
+      <a href="https://github.com/Enzoblgz" target="_blank" rel="noopener">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
